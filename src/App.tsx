@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import PetPhoto from './PetPhoto';
+import placeholderPhoto from './American-Eskimo-Dog.jpg';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         <p>
           Hello Hello
         </p>
+        <PetPhoto image={placeholderPhoto}/>
         <a
           className="App-link"
           href="https://reactjs.org"
